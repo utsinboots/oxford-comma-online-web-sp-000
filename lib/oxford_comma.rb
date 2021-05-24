@@ -9,6 +9,8 @@ def oxford_comma(array)
     #array_last_delete = ""
     array_last_delete = array.delete(array.last)
     values = array.join(", ") + ", and " + array_last_delete
+  else
+    
   end
   values
 end
