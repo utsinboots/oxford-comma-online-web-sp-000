@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  values = ""
+  #values = ""
   case array.size
   when 1
     values = array.join 
