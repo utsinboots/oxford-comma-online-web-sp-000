@@ -7,7 +7,7 @@ def oxford_comma(array)
     values = array.join(" and ")
   when 3
     #array_last_delete = ""
-    array_last_delete = array.delete!(array.last)
+    array_last_delete = array.delete(array.last)
     values = array.join(", ") + "and " + array_last_delete
   end
   values
