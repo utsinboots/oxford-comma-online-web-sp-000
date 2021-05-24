@@ -5,12 +5,10 @@ def oxford_comma(array)
     values = array.join 
   when 2
     values = array.join(" and ")
-  when 3
+  else
     #array_last_delete = ""
     array_last_delete = array.delete(array.last)
     values = array.join(", ") + ", and " + array_last_delete
-  else
-    val
   end
   values
 end
